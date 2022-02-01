@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css ">
+    <link rel="stylesheet" type="text/css" href="..\static\project data.css">
+    <title>Project Information</title>
+</head>
+<body>
+    <div class="main">
+
+
+        <ul>
+   
+            <li class="active"><a href="{{ url_for('welcome') }}"><em class="fa fa-home"></em>Home</a></i>
+             </li>
+             <li><a href="prediction"><i class="fa fa-search" aria-hidden="true"></i>Predict</a>
+   
+            <li><a href="#"><em class="fa fa-address-book-o"></em>About</a>
+            <div class="submenu">
+                <ul>
+                    <li>
+                        <a href="project"></i>Project</a>
+                    </li>
+                    <li>
+                        <a href="data"></i>Team</a>
+                    </li>
+                </ul>
+            </div>
+   
+   
+            </li>
+        </ul>
+    </div>
+   <body>
+   
+   <div class="about-section">
+     <h1><strong>Zomato Review Analysis</strong></h1><br />
+     <p>The moto of our project is to check whether a given feedback is positive or negative.<br>In today’s digital world, a food app like Zomato is widely used because it provides a platform for people to share their
+     opinion about the restaurants and cafes they have visited and find a place to enjoy.<br>The feed back is categorised into 3 types as below:</p>
+   </div>
+   
+   <div class="row">
+     <div class="column">
+       <div class="card">
+         <img src="{{url_for('static', filename='happy1.jpg')}}" alt="Jane" >
+         <div class="container">
+          <h2>Positive Feedback</h2>
+         </div>
+       </div>
+     </div>
+   
+     <div class="column">
+       <div class="card">
+         <img  src="{{url_for('static', filename='ok.gif')}}" alt="Mike" >
+         <div class="container">
+           <h2>Neutral Feedback</h2>
+         </div>
+       </div>
+     </div>
+   
+     <div class="column">
+       <div class="card">
+         <img src="{{url_for('static', filename='sad.jpg')}}" alt="John" >
+         <div class="container">
+           <h2>Negative Feedback</h2>
+         </div>
+       </div>
+     </div>
+   </div>
+</body>
+</html>

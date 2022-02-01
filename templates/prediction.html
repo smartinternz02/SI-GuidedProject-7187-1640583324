@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="..\static\prediction.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css ">
+    <title>Prediction</title>
+</head>
+<body>
+    <div class="main">
+        <ul><br />
+            <li class="active"><a href="{{ url_for('welcome') }}"><em class="fa fa-home"></em><span>Home</span></a></i>
+            </li>
+            <li><a href="prediction" ><i class="fa fa-search" aria-hidden="true"></i><span>Predict</span></a>
+            <li><a href="#"><em class="fa fa-address-book-o"></em><span>About</span></a>
+            <div class="submenu">
+                <ul>
+                    <li>
+                        <a href="project"></i>Project</a>
+                    </li>
+                </ul>
+            </div>
+            </li>
+        </ul>
+    </div>
+   <div class="review-title">
+       <h1>Review Analysis</h1>
+   </div>
+   <div class="review-form">
+       <form id="review-form" action = "http://localhost:9000/prediction" method = "post" >
+           <textarea name="message" class="form-control"   placeholder="Enter your Review" rows="4" required></textarea><br>
+           <input type="submit" class="form-control submit" value="Predict"><br><br><br><br><br><br>
+           <textarea name="message-1" class="form-control" placeholder="Predicted Rating is" rows="2">{{prediction}}</textarea><br>
+
+       </form>
+   </div><div class="main">
+
+
+    <ul><br />
+        <li class="active"><a href="{{ url_for('welcome') }}"><em class="fa fa-home"></em><span>Home</span></a></i>
+         </li>
+         <li><a href="prediction" ><i class="fa fa-search" aria-hidden="true"></i><span>Predict</span></a>
+
+        <li><a href="#"><em class="fa fa-address-book-o"></em><span>About</span></a>
+        <div class="submenu">
+            <ul>
+                <li>
+                    <a href="project"></i>Project</a>
+                </li>
+               
+            </ul>
+        </div>
+
+
+        </li>
+    </ul>
+</div>
+<div class="review-title">
+   <h1>Review Analysis</h1>
+</div>
+<div class="review-form">
+   <form id="review-form" action = "http://localhost:9000/prediction" method = "post" >
+       <textarea name="message" class="form-control"   placeholder="Enter your Review" rows="4" required></textarea><br>
+       <input type="submit" class="form-control submit" value="Predict"><br><br><br><br><br><br>
+       <textarea name="message-1" class="form-control" placeholder="Predicted Rating is" rows="2">{{prediction}}</textarea><br>
+
+   </form>
+</div>
+</body>
+</html>
