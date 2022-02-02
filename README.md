@@ -6,7 +6,7 @@ Sentiment Analysis Of Customer Feedback On Restaurants Using IBM Cloud
 
 - Shyamkrishnan Sudhir
 
-## Zomato IBM.h5 File Link
+## Zomato IBM.h5  IBM File Link
 
 https://drive.google.com/file/d/1pz6hP4OvM8_i-kzrm3UDEwjr5P40XbAR/view?usp=sharing
 
