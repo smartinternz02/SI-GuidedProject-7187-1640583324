@@ -6,11 +6,9 @@ Sentiment Analysis Of Customer Feedback On Restaurants Using IBM Cloud
 
 - Shyamkrishnan Sudhir
 
-## Template Files Include:
+## Zomato IBM.h5 File Link
 
-1. home.html
-2. prediction.html
-3. projectdata.html
+https://drive.google.com/file/d/1pz6hP4OvM8_i-kzrm3UDEwjr5P40XbAR/view?usp=sharing
 
 ### Dataset Used: 
 
@@ -24,7 +22,7 @@ Given in the repository filename: SmartInterz Video.mp4
 
 ### Model Name: 
 
-1. zomato_2_analysis.h5
+1. zomato_2_analysis.h5  https://drive.google.com/file/d/1soUaDTGkKHb9fIG6HrqIf4w3vh2ETJUw/view?usp=sharing
 2. cv.pkl
 
 ### Libraries used:
@@ -33,6 +31,12 @@ Given in the repository filename: SmartInterz Video.mp4
 2. Flask
 3. Numpy
 4. Flask-WTF
+
+### Template Files Include:
+
+1. home.html
+2. prediction.html
+3. projectdata.html
 
 ### Home Page
 
