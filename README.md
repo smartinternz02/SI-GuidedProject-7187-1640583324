@@ -20,6 +20,8 @@ Link:  https://drive.google.com/file/d/1soUaDTGkKHb9fIG6HrqIf4w3vh2ETJUw/view?us
  
 Given in the repository filename: SmartInterz Video.mp4
 
+https://drive.google.com/file/d/13PSDTE1w57red4zBnx0M9niBrZJM9OPF/view?usp=sharing
+
 ### Model Name: 
 
 1. zomato_2_analysis.h5  https://drive.google.com/file/d/1soUaDTGkKHb9fIG6HrqIf4w3vh2ETJUw/view?usp=sharing
