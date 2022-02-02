@@ -18,6 +18,10 @@ zomato.csv
 
 Link:  https://drive.google.com/file/d/1soUaDTGkKHb9fIG6HrqIf4w3vh2ETJUw/view?usp=sharing
 
+### Video Explaination
+ 
+Given in the repository filename SmartInterz Video.mp4
+
 ### Model Name: 
 
 1. zomato_2_analysis.h5
