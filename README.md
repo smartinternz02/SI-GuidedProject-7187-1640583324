@@ -20,7 +20,7 @@ Link:  https://drive.google.com/file/d/1soUaDTGkKHb9fIG6HrqIf4w3vh2ETJUw/view?us
 
 ### Video Explaination
  
-Given in the repository filename SmartInterz Video.mp4
+Given in the repository filename: SmartInterz Video.mp4
 
 ### Model Name: 
 
